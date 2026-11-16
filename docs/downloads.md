@@ -16,15 +16,17 @@
 | `training-plan-slides.pptx` | 汇报课件（脱敏版） | ~35 MB |
 | `training-plan-slides.pdf` | 汇报课件 PDF（脱敏版） | ~15 MB |
 | `training-calendar.png` | 课程日历大图（脱敏版） | ~1.5 MB |
+| `ischolar-videos-redacted-8.zip` | 8 部已脱敏实操视频：06/07/08/09/11/12/13/14 | ~24 MB |
 
 > Releases 资产使用英文文件名以保证跨平台下载稳定；仓库内 `software-and-videos/01_国产与开源软件工具包/` 下的同名压缩包保留中文名，内容一致。
 
-> 14 部 MP4 实操视频正在做逐帧隐私检查（个人路径、账号、弹窗信息），审核完成后会补充到 Releases；当前请先使用文末「自行录制」或网盘中的原始交付版。
+> **视频说明**：06/07/08/09/11/12/13/14 已完成浏览器标签、个人邮箱/姓名/账号的打码处理，可公开下载。01–04 为步骤卡（非完整录屏）；05（含真实研究项目）与 10（含内部文稿语料）需重录后再发布。
 
-校验方式：下载 `SHA256SUMS.txt` 后执行
+校验方式：下载 `SHA256SUMS.txt`（压缩包/课件）与 `SHA256SUMS-videos.txt`（视频包）后执行
 
 ```bash
 shasum -a 256 -c SHA256SUMS.txt
+shasum -a 256 -c SHA256SUMS-videos.txt
 ```
 
 ## 2. 百度网盘
