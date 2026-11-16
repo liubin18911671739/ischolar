@@ -6,16 +6,18 @@
 
 发布页：<https://github.com/liubin18911671739/ischolar/releases>
 
-| 文件 | 说明 | 大小 |
+| 文件（Releases 资产名） | 说明 | 大小 |
 | --- | --- | --- |
-| `iScholar_v6.2_本地双击即用版_Streamlit_FastAPI.zip` | 本地工作台免配置包（含启动器、后端、前端与测试） | ~43 KB |
-| `Obsidian_科研Vault标准模板与Hermes技能包.zip` | 5 份笔记模板 + 6 个 Hermes Skills | ~18 KB |
-| `AI4S课程_核心讲义_Obsidian_Hermes版.zip` | 15 份核心讲义 | ~87 KB |
-| `AI4S课程_专题实战讲义_Obsidian_Hermes重构版.zip` | 13 份专题实战讲义 | ~186 KB |
-| `AI培训计划方案.docx` | 32 课时培训方案（脱敏版） | ~49 KB |
-| `AI培训方案_示例高校版_v3.pptx` | 汇报课件（脱敏版） | ~35 MB |
-| `AI培训方案_示例高校版_v3.pdf` | 汇报课件 PDF（脱敏版） | ~15 MB |
-| `AI培训课程日历.png` | 课程日历大图（脱敏版） | ~1.5 MB |
+| `ischolar-v6.2-local-app.zip` | 本地工作台免配置包（含启动器、后端、前端与测试） | ~43 KB |
+| `obsidian-research-vault-template.zip` | 5 份笔记模板 + 6 个 Hermes Skills | ~18 KB |
+| `ai4s-core-lectures.zip` | 15 份核心讲义 | ~87 KB |
+| `ai4s-topic-lectures.zip` | 13 份专题实战讲义 | ~186 KB |
+| `training-plan.docx` | 32 课时培训方案（脱敏版） | ~49 KB |
+| `training-plan-slides.pptx` | 汇报课件（脱敏版） | ~35 MB |
+| `training-plan-slides.pdf` | 汇报课件 PDF（脱敏版） | ~15 MB |
+| `training-calendar.png` | 课程日历大图（脱敏版） | ~1.5 MB |
+
+> Releases 资产使用英文文件名以保证跨平台下载稳定；仓库内 `software-and-videos/01_国产与开源软件工具包/` 下的同名压缩包保留中文名，内容一致。
 
 > 14 部 MP4 实操视频正在做逐帧隐私检查（个人路径、账号、弹窗信息），审核完成后会补充到 Releases；当前请先使用文末「自行录制」或网盘中的原始交付版。
 
