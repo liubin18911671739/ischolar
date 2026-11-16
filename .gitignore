@@ -1,0 +1,32 @@
+# ---- Python / iScholar ----
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/.venv/
+ischolar/data/
+ischolar/.pytest_cache/
+.pytest_cache/
+
+# ---- Node / website ----
+website/node_modules/
+website/.next/
+website/out/
+website/playwright-report/
+website/test-results/
+website/.vercel/
+website/tsconfig.tsbuildinfo
+npm-debug.log*
+
+# ---- System / editor ----
+**/.DS_Store
+**/Thumbs.db
+.DS_Store
+.idea/
+.vscode/
+
+# ---- Local secrets / backups ----
+.env
+.env.*
+*.local
+*备份*.json
+ischolar-本地记录-*.json

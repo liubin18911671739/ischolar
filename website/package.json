@@ -1,0 +1,41 @@
+{
+  "name": "ai-lecture",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test:content": "tsx scripts/validate-content.ts",
+    "test:e2e": "playwright test",
+    "check": "npm run lint && npm run typecheck && npm run test:content",
+    "prebuild": "npm run test:content"
+  },
+  "dependencies": {
+    "lucide-react": "^1.59.0",
+    "next": "16.4.2",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.64.1",
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.2",
+    "tailwindcss": "^4",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=22 <25"
+  },
+  "overrides": {
+    "napi-postinstall": "0.3.4"
+  }
+}

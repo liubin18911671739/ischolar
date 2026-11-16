@@ -1,0 +1,7 @@
+# iScholar 随包压缩包校验清单（由 scripts/package-and-sync.sh 生成）
+# 生成时间：2026-11-16 20:19:40
+# 验证：shasum -a 256 -c SHA256SUMS.txt
+f78e038baf84c5f75a17eb28dd37f8d7978ed6f7e295d6ff6514ba9ca4ad3831  iScholar_v6.2_本地双击即用版_Streamlit_FastAPI.zip
+a90b2581a9d3998b137a098bc497616f6fb59a5864ad4b7cb76f7e6d95ea03e4  Obsidian_科研Vault标准模板与Hermes技能包.zip
+4dce2f84d5e0bb970695f17098ed920e5b64505922c43b1d72ed88329cdad998  AI4S课程_核心讲义_Obsidian_Hermes版.zip
+4164580f3a6b54c707d34a2a82783ed283172582c281f8e2eeecad2fb1d74f4f  AI4S课程_专题实战讲义_Obsidian_Hermes重构版.zip

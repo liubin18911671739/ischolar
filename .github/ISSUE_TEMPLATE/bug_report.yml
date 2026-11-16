@@ -1,0 +1,47 @@
+name: 🐛 Bug 报告
+description: 报告可复现的问题
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        提交前请先搜索已有 Issue。请勿粘贴 API Key、个人路径或未脱敏数据。
+  - type: dropdown
+    id: module
+    attributes:
+      label: 受影响模块
+      options:
+        - ischolar 本地工作台
+        - website 课程门户
+        - lectures 讲义 / Obsidian 模板
+        - scripts / CI / 打包
+        - 文档
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: 1. ... 2. ... 3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果与日志
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: 环境
+      placeholder: macOS 15 / Python 3.12 / Node 22 / Chrome 131
+    validations:
+      required: true
