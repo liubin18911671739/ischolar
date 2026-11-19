@@ -8,7 +8,7 @@
 - Next.js 16.4.2、React 19.3.0，已提供 npm 锁文件。
 - `npm run lint`：通过。
 - `npm run typecheck`：通过。
-- `npm run test:content`：通过，16 次课、32 小时、15 份模板、5 个专题，课程及资源关联均完整。
+- `npm run test:content`：通过，16 次课、32 小时、18 份模板、5 个专题，课程及资源关联均完整。
 - `npm run build`：通过，课程与专题均静态预渲染；没有模型代理、上传接口或用户数据接收 API。
 - 最新复核：`npm run check` 与 `npm run build` 均通过。
 - 内容检查已纳入 `prebuild`，后续构建会先检查课程、课时、日期、资源关联和状态依据。
@@ -68,7 +68,7 @@ Playwright 共 26 项检查通过（Chromium 桌面/手机工作台、Chromium/F
 | `npm ci` | 通过，373 个包；因本机 npm 缓存损坏，使用 `--prefer-offline` 重装（耗时约 34 分钟） |
 | `npm run lint` | 通过 |
 | `npm run typecheck` | 通过 |
-| `npm run test:content` | 通过（16 次课、32 小时、15 份模板、5 个专题） |
+| `npm run test:content` | 通过（16 次课、32 小时、18 份模板、5 个专题） |
 | `npm run build` | 通过，静态生成 28 个页面（首页、日历、16 课详情、5 专题、资源、搜索、关于、404） |
 
 ### 仍未完成（阻塞发布验收）

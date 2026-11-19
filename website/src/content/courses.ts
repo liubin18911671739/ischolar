@@ -72,7 +72,7 @@ const records: Omit<Course, "id" | "number" | "week" | "hours" | "module">[] = [
     goals: ["记录一次可复现的运行", "明确智能体的输入、输出与文件权限"],
     tasks: ["绘制原始材料到结论的处理链", "记录数据版本、参数、脚本、模型与提示词版本", "用小任务比较两次运行，解释差异和异常"],
     outputs: ["运行日志与复现说明", "阶段智能体职责表"], tools: ["Hermes Agent（OpenCode / DeepSeek Harness）", "iScholar 本地工作台", "Python / Jupyter", "Git 版本管理"],
-    review: ["真实观测、模拟示例和模型建议分开记录", "失败与负结果保留", "智能体不得未经批准更改研究方案"], resourceIds: ["run-log", "ai-record", "method-card"],
+    review: ["真实观测、模拟示例和模型建议分开记录", "失败与负结果保留", "智能体不得未经批准更改研究方案"], resourceIds: ["run-log", "ai-record", "method-card", "handover-log"],
   },
   {
     topic: "research-agent", title: "论文写作、引用核查与投稿准备",
@@ -80,7 +80,7 @@ const records: Omit<Course, "id" | "number" | "week" | "hours" | "module">[] = [
     goals: ["构建问题、方法、结果和讨论的论证链", "按期刊实际要求准备投稿与 AI 使用说明"],
     tasks: ["把已核实证据组织成论文提纲", "逐条回查引文与研究结果", "依据期刊官网范围和规范整理投稿材料及修订记录"],
     outputs: ["论文提纲", "引用核验表与投稿准备清单"], tools: ["文字编辑器", "文献管理工具", "目标期刊官方网站"],
-    review: ["作者负责事实、贡献和署名", "AI 不代替作者决定投稿", "按学校及期刊要求披露 AI 辅助"], resourceIds: ["literature-matrix", "output-review", "ai-record"],
+    review: ["作者负责事实、贡献和署名", "AI 不代替作者决定投稿", "按学校及期刊要求披露 AI 辅助"], resourceIds: ["literature-matrix", "output-review", "ai-record", "product-rubric"],
   },
   {
     topic: "corpus", title: "生态语料库研究问题与语料设计",
@@ -160,7 +160,7 @@ const records: Omit<Course, "id" | "number" | "week" | "hours" | "module">[] = [
     goals: ["按任务与数据边界选择获批工具", "建立正式内容发布前的人工复核流程"],
     tasks: ["练习摘要、纪要、表格说明和通知草稿", "核查人名、数字、时间、责任与政策原文", "展示成果包并填写 30 天行动计划"],
     outputs: ["办公提示模板与复核清单", "个人行动计划与课程成果包"], tools: ["学校现有多模型 / 智能体平台（待确认）", "脱敏样例", "本地模板"],
-    review: ["敏感内容不输入未经批准的外部服务", "正式文件由责任人确认", "具体模型、接口与 L20 能力以校方确认或实测为准"], resourceIds: ["office-prompt", "output-review", "action-plan"],
+    review: ["敏感内容不输入未经批准的外部服务", "正式文件由责任人确认", "具体模型、接口与 L20 能力以校方确认或实测为准"], resourceIds: ["office-prompt", "output-review", "action-plan", "product-rubric", "handover-log", "evaluation-timeline"],
   },
 ];
 
