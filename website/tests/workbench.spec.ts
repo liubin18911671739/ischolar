@@ -100,7 +100,7 @@ test("模板筛选、复制和 CSV 下载内容正确", async ({ page }) => {
   await page.getByRole("searchbox", { name: "搜索模板" }).fill("无匹配xyz");
   await expect(page.getByRole("heading", { name: "没有找到符合条件的模板" })).toBeVisible();
   await page.getByRole("button", { name: "清空筛选" }).click();
-  await expect(page.locator(".resource-card")).toHaveCount(15);
+  await expect(page.locator(".resource-card")).toHaveCount(18);
 });
 
 test("来源许可记录本地保存、验证和导出", async ({ page }) => {
